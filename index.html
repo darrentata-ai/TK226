@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>優惠專區</title>
+<link rel="stylesheet" href="style.css" />
+<style>
+  :root{ --accent:#E8A23D; --accent-deep:#C97F1E; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="index.html">
+      <span class="dot"></span>
+      <span>
+        <span data-store-name>燦坤大甲店</span>
+        <small>優惠專區</small>
+      </span>
+    </a>
+    <div class="header-links">
+      <a class="pill-link" data-line-url href="#" target="_blank" rel="noopener">LINE@</a>
+      <a class="pill-link" data-fb-url href="#" target="_blank" rel="noopener">FB 粉專</a>
+      <a class="pill-link" data-map-url href="#" target="_blank" rel="noopener">店面地圖</a>
+    </div>
+  </div>
+</header>
+
+<div class="hub-wrap">
+  <div class="hub-hero">
+    <div class="kicker">分享這個網址到 LINE@ / FB 就對了</div>
+    <h1>兩份優惠，一個連結</h1>
+    <p>兩份價目表，一次選好——夏季促銷給一般顧客，教育優惠給大專院校學生與教職員。點選卡片，馬上看到折扣與加碼好禮。</p>
+  </div>
+
+  <div class="hub-grid">
+    <a class="hub-card" href="promo.html" style="--accent:#E8A23D; --accent-deep:#C97F1E;">
+      <span class="tag">0801 檔期</span>
+      <h2>夏季促銷</h2>
+      <p>iPhone / Mac / iPad / Apple Watch / AirPods 全面現折，部分機型加碼送好禮。</p>
+      <span class="go">查看價目表 →</span>
+    </a>
+    <a class="hub-card" href="edu.html" style="--accent:#0F4C4F; --accent-deep:#0A3638;">
+      <span class="tag">Back to School</span>
+      <h2>教育優惠</h2>
+      <p>大專院校學生 / 教職員專屬教育價，MacBook / iPad Air / iPad Pro 開學加碼送好禮。</p>
+      <span class="go">查看價目表 →</span>
+    </a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a data-line-url href="#" target="_blank" rel="noopener">加 LINE@</a>
+      <a data-fb-url href="#" target="_blank" rel="noopener">追蹤 FB 粉專</a>
+      <a data-map-url href="#" target="_blank" rel="noopener">查看店面地圖</a>
+    </div>
+    <div class="footer-note">價格與贈品內容以門市實際公告為準・非正式報價單</div>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script>
+  document.querySelectorAll("[data-line-url]").forEach((el) => (el.href = STORE_CONFIG.lineUrl));
+  document.querySelectorAll("[data-fb-url]").forEach((el) => (el.href = STORE_CONFIG.fbUrl));
+  document.querySelectorAll("[data-map-url]").forEach((el) => (el.href = STORE_CONFIG.mapUrl));
+  document.querySelectorAll("[data-store-name]").forEach((el) => (el.textContent = STORE_CONFIG.storeName));
+</script>
+</body>
+</html>
