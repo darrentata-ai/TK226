@@ -23,7 +23,7 @@ const PRODUCTS = [
   {
     category: "iPhone",
     items: [
-      { name: "iPhone 17e", spec: "256GB", price: 21900, sale: 21066, note: "現折 834", gifts: ["加贈市價 1,280 元保護貼"] },
+      { name: "iPhone 17e", spec: "256GB", price: 21900, sale: 21068, note: "現折 834", gifts: ["加贈市價 1,280 元保護貼"] },
       { name: "iPhone 17e", spec: "512GB", price: 28900, sale: 27646, note: "現折 1,254", gifts: ["加贈市價 1,280 元保護貼"] },
       { name: "iPhone 17", spec: "256GB", price: 29900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
       { name: "iPhone 17", spec: "512GB", price: 36900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
