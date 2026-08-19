@@ -1,5 +1,5 @@
 // ============================================================
-// 0801 檔期 — 一般促銷資料
+// 0817 檔期 — 一般促銷資料
 // 之後換檔期只要把新 PDF 內容告訴 Claude，重新產生這個檔案即可，
 // 頁面結構與樣式完全不用動。
 // 欄位說明：
@@ -12,7 +12,7 @@
 // ============================================================
 const PAGE_META = {
   title: "夏季促銷",
-  eyebrow: "限時優惠 · 2026/08/01–08/16",
+  eyebrow: "限時優惠 · 2026/08/17–08/31",
   heading: "iPhone / Mac / iPad 全面現折",
   desc: "點選價格卡，即可看到完整優惠詳情與加碼好禮。實際庫存、顏色及價格均以門市公告為準。",
   meta: [],
@@ -23,16 +23,15 @@ const PRODUCTS = [
   {
     category: "iPhone",
     items: [
-      { name: "iPhone 17e", spec: "256GB", price: 21900, sale: 21066, note: "現折 834", gifts: ["加贈市價 1,280 元保護貼"] },
-      { name: "iPhone 17e", spec: "512GB", price: 28900, sale: 27646, note: "現折 1,254", gifts: ["加贈市價 1,280 元保護貼"] },
+      { name: "iPhone 17e", spec: "256GB", price: 21900, gifts: ["消費滿萬元贈 600 元配件金"] },
+      { name: "iPhone 17e", spec: "512GB", price: 28900, gifts: ["消費滿萬元贈 600 元配件金"] },
       { name: "iPhone 17", spec: "256GB", price: 29900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
       { name: "iPhone 17", spec: "512GB", price: 36900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
-      { name: "iPhone Air", spec: "256GB", price: 36900, sale: 34317, note: "現折 2,583", gifts: ["現貨售完為止"] },
       { name: "iPhone Air", spec: "512GB", price: 43900, sale: 40827, note: "現折 3,073", gifts: ["現貨售完為止"] },
-      { name: "iPhone 17 Pro", spec: "256GB", price: 39900, sale: 39144, note: "現折 756", gifts: ["加贈市價 1,499 元防護殼貼組"] },
-      { name: "iPhone 17 Pro", spec: "512GB", price: 46900, sale: 45864, note: "現折 1,036", gifts: ["加贈市價 1,499 元防護殼貼組"] },
-      { name: "iPhone 17 Pro Max", spec: "256GB", price: 44900, sale: 43759, note: "現折 1,141", gifts: ["加贈市價 980 元保護殼"] },
-      { name: "iPhone 17 Pro Max", spec: "512GB", price: 51900, sale: 50514, note: "現折 1,386", gifts: ["加贈市價 980 元保護殼"] },
+      { name: "iPhone 17 Pro", spec: "256GB", price: 39900, sale: 39163, note: "現折 737", gifts: ["加贈市價 980 元保護殼"] },
+      { name: "iPhone 17 Pro", spec: "512GB", price: 46900, sale: 45953, note: "現折 947", gifts: ["加贈市價 980 元保護殼"] },
+      { name: "iPhone 17 Pro Max", spec: "256GB", price: 44900, sale: 43794, note: "現折 1,105", gifts: ["加贈市價 1,480 元保護殼"] },
+      { name: "iPhone 17 Pro Max", spec: "512GB", price: 51900, sale: 50514, note: "現折 1,385", gifts: ["加贈市價 1,480 元保護殼"] },
     ],
   },
   {
@@ -95,6 +94,7 @@ const PRODUCTS = [
       { name: "AirPods 4", spec: "標準款", price: 4490, sale: 3990, note: "現折 500" },
       { name: "AirPods 4", spec: "主動式降噪", price: 5990, sale: 5390, note: "現折 600" },
       { name: "AirPods Pro 3", spec: "主動式降噪", price: 7490, sale: 6690, note: "現折 800" },
+      { name: "AirPods Max", spec: "耳罩式", price: 17990, sale: 13999, note: "現折 3,991" },
       { name: "AirPods Max 2", spec: "耳罩式", price: 17990, sale: 17091, note: "現折 899" },
     ],
   },
