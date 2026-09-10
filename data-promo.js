@@ -23,10 +23,10 @@ const PRODUCTS = [
   {
     category: "iPhone",
     items: [
-      { name: "iPhone 17e", spec: "256GB", price: 21900, gifts: ["消費滿萬元贈 500 元配件金"] },
-      { name: "iPhone 17e", spec: "512GB", price: 28900, gifts: ["消費滿萬元贈 500 元配件金"] },
-      { name: "iPhone 17", spec: "256GB", price: 29900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
-      { name: "iPhone 17", spec: "512GB", price: 36900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
+      { name: "iPhone 17e", spec: "256GB", price: 25900, gifts: ["消費滿萬元贈 500 元配件金"] },
+      { name: "iPhone 17e", spec: "512GB", price: 32900, gifts: ["消費滿萬元贈 500 元配件金"] },
+      { name: "iPhone 17", spec: "256GB", price: 32900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
+      { name: "iPhone 17", spec: "512GB", price: 39900, gifts: ["消費滿萬元贈 500 元配件金", "限現貨，暫不開放預訂"] },
       { name: "iPhone 17 Pro", spec: "256GB", price: 39900, sale: 38994, note: "現折 906", gifts: ["加贈市價 1,290 元保護貼", "現貨售完為止"] },
       { name: "iPhone 17 Pro", spec: "512GB", price: 46900, sale: 45749, note: "現折 1,151", gifts: ["加贈市價 1,290 元保護貼", "現貨售完為止"] },
       { name: "iPhone 17 Pro Max", spec: "256GB", price: 44900, sale: 43729, note: "現折 1,171", gifts: ["加贈市價 990 元保護貼"] },
@@ -79,16 +79,16 @@ const PRODUCTS = [
     items: [
       { name: "Apple Watch SE 3", spec: "40mm・GPS", price: 7900, sale: 7347, note: "現折 553" },
       { name: "Apple Watch SE 3", spec: "44mm・GPS", price: 8900, sale: 8277, note: "現折 623" },
-      { name: "Apple Watch S11", spec: "42mm・GPS", price: 12900, sale: 11997, note: "現折 903" },
-      { name: "Apple Watch S11", spec: "46mm・GPS", price: 13900, sale: 12927, note: "現折 973" },
-      { name: "Apple Watch Ultra 3", spec: "49mm・鈦金屬", price: 26900, sale: 24748, note: "現折 2,152" },
+      { name: "Apple Watch S11", spec: "42mm・GPS", price: 12400 },
+      { name: "Apple Watch S11", spec: "46mm・GPS", price: 13300 },
+      { name: "Apple Watch Ultra 3", spec: "49mm・鈦金屬", price: 24800 },
     ],
   },
   {
     category: "AirPods",
     items: [
-      { name: "AirPods 4", spec: "標準款", price: 4490, sale: 3990, note: "現折 500" },
-      { name: "AirPods 4", spec: "主動式降噪", price: 5990, sale: 5390, note: "現折 600" },
+      { name: "AirPods 4", spec: "標準款", price: 3790 },
+      { name: "AirPods 4", spec: "主動式降噪", price: 4790 },
       { name: "AirPods Pro 3", spec: "主動式降噪", price: 7490, sale: 6690, note: "現折 800" },
     ],
   },
