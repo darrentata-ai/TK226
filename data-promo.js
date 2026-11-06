@@ -46,7 +46,7 @@ const PRODUCTS = [
       { name: "MacBook Neo 13″", spec: "A18 Pro・8GB・256GB", price: 23900, sale: 21988, note: "現折 1,912" },
       { name: "MacBook Neo 13″", spec: "A18 Pro・8GB・512GB", price: 26900, sale: 24748, note: "現折 2,152" },
       { name: "iMac 24″", spec: "M6・10CPU・10GPU・16GB・256GB", price: 49900, gifts: ["新機上市", "消費滿萬元贈 300 元配件金"] },
-      { name: "Mac mini", spec: "M6・12CPU・12GPU・16GB・256GB", price: 29900, gifts: ["加贈市價 1,880 元 Hub"] },
+      { name: "Mac mini", spec: "M6・12CPU・12GPU・16GB・256GB", price: 29900, sale: 28900, note: "現折 1,000", gifts: ["加贈市價 1,880 元 Hub"] },
       { name: "Mac mini", spec: "M6・12CPU・12GPU・16GB・512GB", price: 36900, sale: 35367, note: "現折 1,533", gifts: ["加贈市價 1,880 元 Hub"] },
       { name: "Mac mini", spec: "M6・12CPU・12GPU・24GB・512GB", price: 43900, sale: 41877, note: "現折 2,023", gifts: ["加贈市價 1,880 元 Hub"] },
       { name: "Mac mini", spec: "M5 Pro・15CPU・16GPU・24GB・512GB", price: 59900, sale: 56757, note: "現折 3,143", gifts: ["加贈市價 1,880 元 Hub"] },
